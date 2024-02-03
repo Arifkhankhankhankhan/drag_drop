@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 800px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+   cursor: pointer;
+    background-image: url("https://source.unsplash.com/random/?animal&1");
+}
+
+.hold{
+    border: 2px dashed black;
+    background-color: grey;
+}
